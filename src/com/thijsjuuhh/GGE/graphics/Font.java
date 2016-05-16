@@ -1,0 +1,87 @@
+package com.thijsjuuhh.GGE.graphics;
+
+public class Font {
+
+	private Spritesheet Arial = new Spritesheet("Arial.png");
+	
+	private Sprite a = new Sprite(Arial, 16, 16, 0, 0);
+	private Sprite b = new Sprite(Arial, 16, 16, 1, 0);
+	private Sprite c = new Sprite(Arial, 16, 16, 2, 0);
+	private Sprite d = new Sprite(Arial, 16, 16, 3, 0);
+	private Sprite e = new Sprite(Arial, 16, 16, 4, 0);
+	private Sprite f = new Sprite(Arial, 16, 16, 5, 0);
+	private Sprite g = new Sprite(Arial, 16, 16, 6, 0);
+	private Sprite h = new Sprite(Arial, 16, 16, 7, 0);
+	private Sprite i = new Sprite(Arial, 16, 16, 8, 0);
+	private Sprite j = new Sprite(Arial, 16, 16, 9, 0);
+	private Sprite k = new Sprite(Arial, 16, 16, 10, 0);
+	private Sprite l = new Sprite(Arial, 16, 16, 11, 0);
+	private Sprite m = new Sprite(Arial, 16, 16, 12, 0);
+	private Sprite n = new Sprite(Arial, 16, 16, 0, 0);
+	private Sprite o = new Sprite(Arial, 16, 16, 1, 1);
+	private Sprite p = new Sprite(Arial, 16, 16, 2, 1);
+	private Sprite q = new Sprite(Arial, 16, 16, 3, 1);
+	private Sprite r = new Sprite(Arial, 16, 16, 4, 1);
+	private Sprite s = new Sprite(Arial, 16, 16, 5, 1);
+	private Sprite t = new Sprite(Arial, 16, 16, 6, 1);
+	private Sprite u = new Sprite(Arial, 16, 16, 7, 1);
+	private Sprite v = new Sprite(Arial, 16, 16, 8, 1);
+	private Sprite w = new Sprite(Arial, 16, 16, 9, 1);
+	private Sprite x = new Sprite(Arial, 16, 16, 10, 1);
+	private Sprite y = new Sprite(Arial, 16, 16, 11, 1);
+	private Sprite z = new Sprite(Arial, 16, 16, 12, 1);
+	private Sprite A = new Sprite(Arial, 16, 16, 0, 2);
+	private Sprite B = new Sprite(Arial, 16, 16, 1, 2);
+	private Sprite C = new Sprite(Arial, 16, 16, 2, 2);
+	private Sprite D = new Sprite(Arial, 16, 16, 3, 2);
+	private Sprite E = new Sprite(Arial, 16, 16, 4, 2);
+	private Sprite F = new Sprite(Arial, 16, 16, 5, 2);
+	private Sprite G = new Sprite(Arial, 16, 16, 6, 2);
+	private Sprite H = new Sprite(Arial, 16, 16, 7, 2);
+	private Sprite I = new Sprite(Arial, 16, 16, 8, 2);
+	private Sprite J = new Sprite(Arial, 16, 16, 9, 2);
+	private Sprite K = new Sprite(Arial, 16, 16, 10, 2);
+	private Sprite L = new Sprite(Arial, 16, 16, 11, 2);
+	private Sprite M = new Sprite(Arial, 16, 16, 12, 2);
+	private Sprite N = new Sprite(Arial, 16, 16, 0, 3);
+	private Sprite O = new Sprite(Arial, 16, 16, 1, 3);
+	private Sprite P = new Sprite(Arial, 16, 16, 2, 3);
+	private Sprite Q = new Sprite(Arial, 16, 16, 3, 3);
+	private Sprite R = new Sprite(Arial, 16, 16, 4, 3);
+	private Sprite S = new Sprite(Arial, 16, 16, 5, 3);
+	private Sprite T = new Sprite(Arial, 16, 16, 6, 3);
+	private Sprite U = new Sprite(Arial, 16, 16, 7, 3);
+	private Sprite V = new Sprite(Arial, 16, 16, 8, 3);
+	private Sprite W = new Sprite(Arial, 16, 16, 9, 3);
+	private Sprite X = new Sprite(Arial, 16, 16, 10, 3);
+	private Sprite Y = new Sprite(Arial, 16, 16, 11, 3);
+	private Sprite Z = new Sprite(Arial, 16, 16, 12, 3);
+	private Sprite excl = new Sprite(Arial, 16, 16, 0, 4);
+	private Sprite ques = new Sprite(Arial, 16, 16, 1, 4);
+	private Sprite doll = new Sprite(Arial, 16, 16, 2, 4);
+	private Sprite hash = new Sprite(Arial, 16, 16, 3, 4);
+	private Sprite at = new Sprite(Arial, 16, 16, 4, 4);
+	private Sprite comm = new Sprite(Arial, 16, 16, 5, 4);
+	private Sprite dot = new Sprite(Arial, 16, 16, 6, 4);
+	private Sprite slas = new Sprite(Arial, 16, 16, 7, 4);
+	private Sprite equa = new Sprite(Arial, 16, 16, 8, 4);
+	private Sprite wave = new Sprite(Arial, 16, 16, 9, 4);
+	private Sprite astr = new Sprite(Arial, 16, 16, 10, 4);
+	private Sprite plus = new Sprite(Arial, 16, 16, 11, 4);
+	private Sprite minu = new Sprite(Arial, 16, 16, 12, 4);
+	private Sprite n0 = new Sprite(Arial, 16, 16, 0, 5);
+	private Sprite n1 = new Sprite(Arial, 16, 16, 1, 5);
+	private Sprite n2 = new Sprite(Arial, 16, 16, 2, 5);
+	private Sprite n3 = new Sprite(Arial, 16, 16, 3, 5);
+	private Sprite n4 = new Sprite(Arial, 16, 16, 4, 5);
+	private Sprite n5 = new Sprite(Arial, 16, 16, 5, 5);
+	private Sprite n6 = new Sprite(Arial, 16, 16, 6, 5);
+	private Sprite n7 = new Sprite(Arial, 16, 16, 7, 5);
+	private Sprite n8 = new Sprite(Arial, 16, 16, 8, 5);
+	private Sprite n9 = new Sprite(Arial, 16, 16, 9, 5);
+	private Sprite open = new Sprite(Arial, 16, 16, 10, 5);
+	private Sprite clos = new Sprite(Arial, 16, 16, 11, 5);
+	private Sprite perc = new Sprite(Arial, 16, 16, 12, 5);
+
+	
+}
